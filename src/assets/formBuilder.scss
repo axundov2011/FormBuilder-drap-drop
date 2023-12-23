@@ -33,7 +33,7 @@ body{
     padding-top: 10px;
     border-radius: 8px;
     margin: 20px;
-    padding: 0 16px; /* Düzeltildi: padding değeri virgül yerine boşluk kullanmalısınız */
+    padding: 0 16px;
     gap: 4px;
     border: 2px solid #EAECF0;
 }
@@ -79,7 +79,7 @@ body{
         margin-top: 10px;
     }
 }
-/* Optional: Adjust styling for better appearance */
+
 
 h2 {
     width: 46px;
@@ -89,7 +89,6 @@ h2 {
     color: #333; 
 }
 
-/* Optional: Styling for the buttons in Settings column */
 .column-firs button {
     margin-bottom: 5px;
     padding: 5px;
@@ -99,7 +98,6 @@ h2 {
     cursor: pointer;
 }
 
-/* Optional: Styling for the select element in Editor column */
 .column-firs select {
     padding: 8px;
     margin-bottom: 10px;
@@ -125,5 +123,5 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
-  border: 1px solid red; /* Add a border for visibility */
+  border: 1px solid red;
   }
