@@ -28,3 +28,8 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+-  First, I applied a few react libraries to install form builder.
+-  Then I ran the React project and decided to write a Typescript based project.
+-  I divided the form into 3 parts. Elements, Editor and Settings
