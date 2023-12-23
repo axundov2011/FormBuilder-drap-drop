@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F7FA;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.column-firs {
+    width: 380px;
+    height: 642px;
+    border-radius: 20px;
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border: 2px solid #EAECF0;
+    background-color: #FFFFFF;
+}
+
+.input-column,
+.select-column,
+.checkbox-column {
+    width: 288px;
+    height: 54px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 0 16px; /* Düzeltildi: padding değeri virgül yerine boşluk kullanmalısınız */
+    gap: 4px;
+    border: 2px solid #EAECF0;
+}
+
+.input-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 7.27px;
+    padding-top: 10px;
+    float: left;
+}
+
+.editor-column{
+    width: 580px;
+    height: 642px;
+    border-radius: 20px;
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border: 2px solid #EAECF0;
+    background-color: #FFFFFF;
+}
+
+.setting-column{
+    width: 380px;
+    height: 642px;
+    border-radius: 20px;
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border: 2px solid #EAECF0;
+    background-color: #FFFFFF;
+   
+  
+   
+    .settings-input{
+        width: 100%;
+        height: 44px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+    }
+}
+/* Optional: Adjust styling for better appearance */
+
+h2 {
+    width: 46px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; 
+}
+
+/* Optional: Styling for the buttons in Settings column */
+.column-firs button {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Optional: Styling for the select element in Editor column */
+.column-firs select {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.editor-element {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .setting-label{
+    margin-top: 40px;
+    margin-bottom: 1%;
+  }
+  .remove-icon {
+    cursor: pointer;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid red; /* Add a border for visibility */
+  }
